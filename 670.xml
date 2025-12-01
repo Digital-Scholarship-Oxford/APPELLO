@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://epidoc.googlecode.com/files/exp-epidoc.rng" type="xml"?> 
+	<TEI n="670"  xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <!-- HEADER -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt><title>Vindolanda writing tablet number <rs type="tabletNum" key="670" n="1">670</rs></title></titleStmt>
+	    		<publicationStmt>
+	    			<p>
+	    		        <bibl n="Tab.Vindol.III" type="original">
+	    		            <author>Alan K. Bowman</author> and <author> J. David Thomas</author>
+	    		             (<date>2003</date>). 
+	    		            The Vindolanda Writing Tablets (Tabulae Vindolandenses III). 
+	    		            <pubPlace>London</pubPlace>: 
+	    		            <publisher>British Museum Publications</publisher>.
+	    		        </bibl>
+	    		    </p>
+	    		    <p>
+                        All reuse or distribution of this work must contain somewhere a link back to the URL 
+                        <ref>http://vindolanda.csad.ox.ac.uk/</ref>
+                    </p>
+	    			 <p>
+	    		        Made available by Centre for the Study of Ancient Documents, University of Oxford
+	    		        <ref>http://www.csad.ox.ac.uk/</ref>
+	    		        <date>2009</date>
+	    		    </p>	
+	    		</publicationStmt>
+	    		<sourceDesc>
+                <p>Originally published in 
+                    <bibl n="Tab.Vindol.III">
+                        <name type="surname">Bowman</name> and 
+                        <name type="surname">Thomas</name> (
+                        <date>2003</date>)
+                    </bibl>
+                </p>
+            </sourceDesc>
+		</fileDesc>
+        
+        <encodingDesc>
+			<p>Encoded for EpiDoc schema 1.26 in <date>2008</date> by <persName>Henriette Roued</persName>.</p>
+            <p>Contextual Encoding on <date>2008-12-09</date> by <persName>Jane Gillespie </persName></p>
+        </encodingDesc> 
+        
+        <profileDesc>
+            <textClass>
+                <catRef target="Letters"/>
+            </textClass>
+            <langUsage>
+                <language ident="eng">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <handNotes>
+                <handNote xml:id="hand1"/>
+                <handNote xml:id="hand2"/> 	 
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2008" who="Henriette Roued">First encoding into EpiDoc schema 1.26 using PHP script from raw text documents.</change>
+            <change when="2008-12-09" who="Jane Gillespie">Contextual Encoding</change>       
+            <change when="2009-07-08" who="Henriette Roued">Tidy and added images</change>          
+        <change when="2009-07-20" who="Henriette Roued">Adding Bibliographic references</change>    
+			<change when="2010-06-30" who="Henriette Roued">Corrected  nymRef="Valentinus"</change>        
+      
+        </revisionDesc>
+    </teiHeader>
+    
+    <!-- TEXT -->
+    <text>
+         <body>
+            <!-- PHOTOGRAPHS of the tablet -->
+            <div type="figure" n="photographs">
+                <head>Photographs</head>
+                    <p>
+                        <figure><graphic url="670f_a"/><head>670 Front a</head></figure>
+                        <figure><graphic url="670f_b"/><head>670 Front b</head></figure>
+                    </p>
+            </div>
+            
+            <!-- DESCRIPTION of the physical attributes -->
+            <div type="description"> 
+                
+                <ab>
+                    Inv.no.<rs n="1" type="stilusInv" key="93.1215">93.1215</rs>. 
+                    <width unit="mm">133</width> x 
+                    <height unit="mm">81</height> mm. 
+                    Plates <rs type="plate" key="22">22</rs>.
+                </ab>
+                <ab>
+                    Archaeological data. Location: <rs type="archLocation" key="LXXX">LXXX</rs>. Period: <rs type="archPeriod" key="6A laminate or top of Period 6 ditch">6A laminate or top of Period 6 ditch</rs>.
+                </ab>
+                <ab>Several fragments survive of a letter from Martius to Victor, which may well be mostly complete. In addition to what is transcribed below, there is a tiny scrap with traces of writing on one side only. The tablet is unusual in three respects, date, script and format.
+                </ab>
+                <ab>Date: it was found in a much later stratum than most of the other tablets, a stratum which Robin Birley would date to the last quarter of the second century (cf. <bibl n="ARBirley2002"><author>A.R.Birley</author> (<date>2002</date>)</bibl>, 158). See also Introduction, pp. 11.
+                </ab>
+                <ab>Script: it is written in a hand unlike any others from Vindolanda, a hand which is very cursive and at times distorts the letter-forms quite markedly, e.g. <emph>esse</emph> in i.3. <emph>d</emph> starts with a downward, wavy stroke which turns to form the bottom of the loop before a diagonal stroke cuts back through the first stroke (e.g. ii.4 <emph>dabis</emph>); <emph>e</emph> is often in the shape of a narrow v; <emph>g</emph> in i.7 has a remarkably long tail; <emph>l</emph> descends well below the line; <emph>n</emph> is written in two strokes, the lower one from top to bottom and the upper one from bottom to top; they are often not well joined and can look like a diagonal with a kink in the middle (e.g. i.8, <emph>d<unclear>i</unclear>ligenter</emph>); similarly <emph>s</emph>, except that the kink is in the opposite direction (e.g. <emph><unclear>e</unclear>is</emph> in i.9); <emph>p</emph> is usually made with a loop; <emph>u</emph> can be a shallow curve, high up, in ligature with the letter following (in <emph>agat<unclear>u</unclear>r</emph>, ii.1, it is appreciably reduced). Throughout there is considerable use of ligature, far more than is normal in the tablets; e.g. in <emph>fr<unclear>a</unclear>ter</emph> (i.5) every letter is linked to the ones before and after. Particularly notable ligatures are <emph>al</emph> in <emph>salut<unclear>e</unclear>[m</emph> (i.2), <emph>dt</emph> in <emph>quod <unclear>t</unclear><unclear>e</unclear></emph> (i.3), <emph>ha</emph> in <emph>d<unclear>i</unclear><unclear>s</unclear>trahant</emph> (i.9). Such a script would be possible at the date to which the other tablets belong (<emph>ca.</emph> AD 90-120), but fits at least as well with the later date suggested by the archaeological evidence: it has some similarity to the variant of Old Roman Cursive to which Cencetti applied the word "strisciato" (cf. <emph>Tab.Vindol</emph>.I, p. 59); Cencetti considered this form to have come into common use around the middle of the second century, although he identified an early example in a papyrus of AD 103.
+                </ab>
+                <ab>Format: the letter is written on two-thirds of one side (A) and two-thirds of the other side (B) of a single piece of wood; the other third of (A) was used for the address. We describe A as the front and B as the back. No notches or tie-holes are visible. Although there are several other letters written on both sides of the leaf, there is no other example (so far as we can tell) of a comparable format in the Vindolanda tablets. The tablet is best envisaged as consisting of three vertical sections, I, II and III. The first half of the letter, (i) below, was written on the front of I + II. The tablet was then turned over and the second half of the letter, (ii) below, was written on the back of III + II. The tablet was then folded in a concertina fashion so that the front of III and the back of I were on the outside. The address was written on the front of III. See the diagram below. Thus when the letter was received and opened, the front of I + II, (i) below, would have been revealed first; the recipient would then have turned the whole tablet over and read (ii), III back + II back, all in the order intended. Why the sender should have used such a strange format it is impossible to tell. There is a further oddity in that there are some three lines of faded writing, which we are unable to read, on the back of I. We wonder whether this is from an earlier text which was partially washed off.
+                </ab>
+                <ab>The first column is apparently concerned with the appointment of the addressee as agent in a private legal matter, perhaps to do with an inheritance (see the notes). The most notable feature of the second column is the reference to a hitherto unknown place <emph>Bremesio</emph>, see ii.3-4 note.
+                </ab>
+                <ab>Since we have the final salutations in ii.7ff. but not the final greeting, it is probable that the tablet is almost but not quite complete at the foot. The other three sides are partially preserved.
+                </ab>
+            </div>
+            <!-- EDITION - the actual text  in latin -->
+            <div type="edition">
+                <head>edition</head>
+                <ab n="Front.i">
+                    <pb n="i" subtype="top1"/>
+                    <pb n="A"/>
+                    <lb xml:id="line.i-1" n="1"/><persName key="martius" nymRef="Martius" n="1" rendition="Martius" rend="librarius">Martius</persName> <persName key="victor" nymRef="Victor" n="1" rendition="Victori" rend="eques, armorum custos?">Victori</persName> <w type="lemma" lemma="frater" n="1" rend="fratri">fratri</w>
+                    <note n="A.i.1"/>
+                    <lb xml:id="line.i-2" n="2"/><space extent="4"/><w type="lemma" lemma="carus" subtype="karissimus" n="1" rend="karissimo">karissimo</w> <w type="lemma" lemma="salus" subtype="salutem" n="1" rend="salutem">salut<unclear>e</unclear><supplied reason="lost" rendition="right">m</supplied></w>
+                    <note n="A.i.2"/>
+                    <lb xml:id="line.i-3" n="3"/> <w type="lemma" lemma="scio" subtype="scias" n="1" rend="scias">s<unclear>ci</unclear>as</w> <w type="lemma" lemma="ego" subtype="me" n="1" rend="me"><unclear>m</unclear>e</w> <w type="lemma" lemma="recte" n="1" rend="recte">recte</w> <w type="lemma" lemma="sum" subtype="esse" n="1" rend="esse">e<unclear>sse</unclear></w> <w type="lemma" lemma="qui" subtype="quod" n="1" rend="quod">quod</w> <w type="lemma" lemma="tu" subtype="te" n="1" rend="te"><unclear>te</unclear></w>
+                    <note n="A.i.3-4"/>
+                    <lb xml:id="line.i-4" n="4"/> <w type="lemma" lemma="inuicem" n="1" rend="inuicem">inuicem</w> <w type="lemma" lemma="facio" subtype="facere" n="1" rend="facere">fac<unclear>e</unclear>r<unclear>e</unclear></w> <w type="lemma" lemma="cupio" n="1" rend="cupio">cupio</w> 
+                        <w type="lemma" lemma="procurator" n="1" rend="procura-                      torem "><unclear>p</unclear>rocu<unclear>r</unclear><supplied reason="lost" rendition="right">a</supplied>-
+                    <lb xml:id="line.i-5" n="5"/>  t<unclear>o</unclear>rem </w>
+                    <note n="A.i.3-4"/>
+                    <note n="A.i.4-5" rendition="2"/>
+                    <w type="lemma" lemma="tu" subtype="te" n="2" rend="te">te</w> <w type="lemma" lemma="facio" n="1" rend="facio"><unclear>fa</unclear>cio</w> <w type="lemma" lemma="frater" n="2" rend="frater">fr<unclear>a</unclear>ter</w> <gap extent="2" reason="illegible" unit="character"/><gap extent="1" reason="lost" rendition="right"/>
+                    		<note n="A.i.4-5"/>
+                    <lb xml:id="line.i-6" n="6"/><gap extent="4" reason="illegible" unit="character"/><gap extent="unknown" reason="lost" rendition="right"/>
+                    		<note n="A.i.6"/>
+                    <lb xml:id="line.i-7" n="7"/>	<gap extent="3" reason="lost" rendition="left"/> <w type="lemma" lemma="cognatus" n="1" rend="cogntis" real="unsure"><unclear>c</unclear>ogn<gap extent="1" reason="illegible" unit="character"/>t<unclear>i</unclear>s</w> <w type="lemma" lemma="pater" n="1" rend="patris">pat<unclear>r</unclear>i<unclear>s</unclear></w> <gap extent="1" reason="illegible" unit="character"/><gap extent="2" reason="lost" rendition="right"/>
+                    		<note n="A.i.7"/>
+                    		<note n="A.i.7-9" rendition="2"/>
+                    <lb xml:id="line.i-8" n="8"/><gap extent="1" reason="lost" rendition="left"/><gap extent="1" reason="illegible" unit="character"/> <w type="lemma" lemma="diligenter" n="1" rend="diligenter">d<unclear>i</unclear>ligenter</w> <w type="lemma" lemma="nec, neque" n="1" rend="neque">neq<unclear>u</unclear>e</w> <w type="lemma" lemma="ago" n="1" rend="aa" real="unsure">a<gap extent="1" reason="illegible" unit="character"/><unclear>a</unclear><gap extent="1" reason="illegible" unit="character"/></w> <gap extent="unknown" reason="lost" rendition="right"/>
+                    		<note n="A.i.8"/>		
+                    <note n="A.i.7-9" rendition="2"/>
+                    <lb xml:id="line.i-9" n="9"/><gap extent="2" reason="lost" rendition="left"/><gap extent="3" reason="illegible" unit="character"/><unclear>i</unclear>d <w type="lemma" lemma="is" subtype="eis" n="1" rend="eis"><unclear>e</unclear>is</w> <w type="lemma" lemma="distraho" subtype="distrahant" n="1" rend="distrahant">d<unclear>is</unclear>trahant</w> <gap extent="2" reason="illegible" unit="character"/><gap extent="2" reason="lost" rendition="right"/>
+                    		<note n="A.i.9"/>		
+                    <note n="A.i.7-9" rendition="2"/>
+                    <lb xml:id="line.i-10" n="10"/>   <gap extent="3" reason="lost" rendition="left"/><gap extent="3" reason="illegible" unit="character"/><unclear>t</unclear>e<gap extent="1" reason="illegible" unit="character"/><gap extent="8" reason="lost" unit="character"/><gap extent="3" reason="illegible" unit="character"/><gap extent="4" reason="lost" rendition="right"/>
+                    <lb xml:id="line.i-11" n="11"/><gap extent="unknown" reason="lost" rendition="top" unit="line"/>
+                </ab>
+                <ab n="Front.ii">
+                    <pb n="ii" subtype="top2"/>
+                    <pb n="B"/>
+                    <lb xml:id="line.ii-1" n="1"/> <w type="lemma" lemma="et" n="1" rend="et">e<unclear>t</unclear></w> <w type="lemma" lemma="quis" subtype="quid" n="1" rend="quid">quid</w> <w type="lemma" lemma="circa" n="1" rend="circa">cir<unclear>c</unclear><supplied reason="lost">a</supplied></w> <w type="lemma" lemma="is" subtype="eas" n="1" rend="eas">e<unclear>a</unclear>s</w> <w type="lemma" lemma="res" n="1" rend="res">res</w> <w type="lemma" lemma="ago" n="2" rend="agatur">agat<unclear>u</unclear>r</w>
+                    <note n="B.ii.1"/>
+                    <note n="B.ii.1ff" rendition="2"/>
+                    <lb xml:id="line.ii-2" n="2"/> <w type="lemma" lemma="peto" n="1" rend="peto">peto</w> <w type="lemma" lemma="per" n="1" rend="per">per</w> <w type="lemma" lemma="occasio" n="1" rend="occasionem">oc<unclear>c</unclear><supplied reason="lost">asi</supplied><unclear>o</unclear>nem</w> <w type="lemma" lemma="scribo" subtype="scribis" n="1" rend="scribis">sc<unclear>ri</unclear>bis</w>
+                    <note n="B.ii.2-3"/>
+                    <lb xml:id="line.ii-3" n="3"/><w type="lemma" lemma="ego" subtype="mihi" n="1" rend="mihi">mihi</w> <w type="lemma" lemma="si" n="1" rend="si">s<unclear>i</unclear></w> <w type="lemma" lemma="occasio" n="2" rend="occasionem">o<unclear>c</unclear><supplied reason="lost">cas</supplied><unclear>i</unclear>onem</w> <placeName key="bremesio" n="1" nymRef="Bremesio" rend="Bremesione">Br<unclear>e</unclear>me-
+                        
+                        <lb xml:id="line.ii-4" n="4"/><unclear>s</unclear>ione</placeName> <note n="B.ii.2-3"/><note n="B.ii.3-4" rendition="2"/> <w type="lemma" lemma="non" n="1" rend="non">no<unclear>n</unclear></w> <w type="lemma" lemma="habeo" subtype="habebis" n="1" rend="habebis"><unclear>h</unclear><supplied reason="lost">abeb</supplied><unclear>i</unclear>s</w> <w type="lemma" lemma="do" subtype="dabis" n="1" rend="dabis">dabis</w> <placeName key="cataractonium" n="1" nymRef="Cataractonium" rend="Catarac-                                                        toni">Catarac-
+                            
+                            <lb xml:id="line.ii-5" n="5"/><unclear>t</unclear>oni</placeName> <note n="B.ii.4"/><note n="B.ii.3-4" rendition="2"/><note n="B.ii.4-5" rendition="3"/><persName key="durm" nymRef="Durm[" n="1" rendition="Durm">D<unclear>u</unclear>r<unclear>m</unclear><gap extent="unknown" reason="lost" rendition="right"/></persName> <rs key="ueteranus" n="1" type="militaryOfficial"><supplied reason="lost" rendition="left">u</supplied>et<unclear>e</unclear>rano</rs> <gap extent="2" reason="illegible" unit="character"/>
+                    <note n="B.ii.5"/>
+                    		<note n="B.ii.4-5" rendition="2"/>
+                    <lb xml:id="line.ii-6" n="6"/><space extent="2"/><persName key="harius" nymRef="Harius" n="1" rendition="Hario">Hario</persName> <w type="lemma" lemma="in" n="1" rend="in">in</w> <gap extent="1" reason="illegible" unit="character"/><gap extent="unknown" reason="lost" rendition="right"/>	<gap extent="12" precision="low" reason="illegible" unit="character"/>
+                    		<note n="B.ii.6"/>
+                    		<note n="B.ii.6-7" rendition="2"/>
+                    <lb xml:id="line.ii-7" n="7"/> <w type="lemma" lemma="sum" subtype="fueramus" n="1" rend="fueramus">fueramus</w> <gap extent="unknown" reason="lost" rendition="right"/>   <gap extent="5" precision="low" reason="illegible" unit="character"/>   <persName key="proculus" nymRef="Proc(u)lus" n="1" rendition="Proculum"><supplied reason="lost" rendition="left">P</supplied><unclear>roc</unclear>ulum</persName>
+                    		<note n="B.ii.7"/>
+                            <note n="B.ii.6-7" rendition="2"/>
+                    		<note n="B.ii.7-9" rendition="3"/>
+                    <lb xml:id="line.ii-8" n="8"/> <w type="lemma" lemma="et" n="2" rend="et">et</w> <w type="lemma" lemma="familia" n="1" rend="familiam">famili<unclear>am</unclear></w> <gap extent="unknown" reason="lost" rendition="right"/>  <gap extent="4" precision="low" reason="illegible" unit="character"/>  <persName key="onidicem" nymRef="]onidicem" n="1" rendition="onidicem"><gap extent="unknown" reason="lost" rendition="left"/><gap extent="2" reason="illegible" unit="character"/><unclear>o</unclear>ni<unclear>d</unclear>i<unclear>c</unclear>em</persName>
+                    <note n="B.ii.8"/>		
+                    <note n="B.ii.7-9" rendition="2"/>
+                    <lb xml:id="line.ii-9" n="9"/><space extent="3"/> <w type="lemma" lemma="filia" n="1" rend="filiam">filia<unclear>m</unclear></w> <gap extent="1" reason="illegible" unit="character"/><gap extent="unknown" reason="lost" rendition="right"/>   <gap extent="6" precision="low" reason="illegible" unit="character"/>   <gap extent="unknown" reason="lost" rendition="left"/> <persName key="valentinus" nymRef="Valentinus" n="1" rendition="Valentinum" rend="uexillarius"><unclear>V</unclear>a<unclear>l</unclear>e<unclear>n</unclear>tinum</persName>
+                    <note n="B.ii.9"/>		
+                    <note n="B.ii.7-9" rendition="2"/>
+                    <lb xml:id="line.ii-10" n="10"/><space extent="3"/><rs key="uexillarius" n="1" type="militaryOfficial">uexil<unclear>l</unclear><supplied reason="lost" rendition="right">arium</supplied></rs> et <gap extent="2" reason="lost" rendition="left"/><gap extent="3" reason="illegible" unit="character"/>an<unclear>u</unclear>m
+                    		<note n="B.ii.10"/>
+                    <lb xml:id="line.ii-11" n="11"/><gap extent="unknown" reason="lost" rendition="top" unit="line"/>
+                </ab>
+                <ab n="A.address">
+                    <pb n="A.Address"/>		<note n="A.Address"/>
+                    <lb xml:id="line.A.Address-1" n="1"/><placeName key="coria" n="1" nymRef="Coria" rend="Coris"><unclear>Co</unclear>ri<unclear>s</unclear></placeName>
+                    		<note n="A.Address.1"/>
+                    <lb xml:id="line.A.Address-2" n="2"/><space extent="2"/>Victori
+                    		
+                    <lb xml:id="line.A.Address-3" n="3"/><space extent="2"/><rs key="eques" n="1" type="militaryOfficial"><w type="abbr" lemma="equiti" n="1"><expan n="1" rend="eq"><abbr>eq</abbr><ex>uiti</ex></expan></w></rs> <rs key="armorum custos" rendition="unsure" type="militaryOfficial">a<unclear>rm</unclear><gap extent="3" reason="illegible" unit="character"/></rs>
+                    <note n="A.Address.3"/>
+                    <lb xml:id="line.A.Address-4" n="4"/><space extent="2"/><w type="lemma" lemma="a, ab" n="1" rend="a">a</w> <persName key="martius" nymRef="Martius" n="1" rendition="Martio" rend="librarius"><supplied reason="lost" rendition="left">M</supplied>a<unclear>rti</unclear>o</persName> <gap extent="2" reason="illegible" unit="character"/>b<unclear>r</unclear>
+                		<note n="A.Address.4"/>
+                </ab>
+            </div>
+            <!-- TRANSLATION of the text in English -->
+            <div type="translation" xml:lang="eng">
+                
+                <ab n="translation">
+	Martius to Victor, his most dear brother, greetings. Know that all is well with me and I wish that the same may be true for you. I am making you agent, brother, <gap extent="3" reason="illegible"/> the relatives<seg rendition="unsure"/> of my<seg rendition="unsure"/> father <gap extent="3" reason="illegible"/> carefully nor <gap extent="3" reason="illegible"/> they sell<seg rendition="unsure"/> anything<seg rendition="unsure"/> for them <gap extent="3" reason="illegible"/> and write to me, I ask, what is being done about those matters when you have the chance. If you do not have the chance (to write) from Bremesio<seg rendition="unsure"/>, give (your letter) at Cataractonium to Durmius<seg rendition="unsure"/> the veteran or<seg rendition="unsure"/> to Harius <gap extent="3" reason="illegible"/> we had been. <supplied reason="lost">Greet?</supplied> Proculus and (his?) family and <gap extent="3" reason="illegible"/> your <seg rendition="unsure"/> daughter and Valentinus the <emph>uexillarius</emph> and -anus <gap extent="3" reason="illegible"/> (Address) <supplied reason="lost">Deliver</supplied> at Coria<seg rendition="unsure"/> to Victor, cavalryman, armourer, from Martius, clerk <seg rendition="unsure"/>.
+	</ab>
+            </div>
+            <!-- COMMENTARY fitting to the each line -->
+            <div type="commentary" xml:lang="eng">
+                
+                <ab n="lineNotes">
+			<note xml:id="note1" n="A.i.1" type="line" anchored="true">The name Martius has not previously occurred in the tablets. It is worth remarking that <bibl n="RIB"><emph>RIB</emph></bibl> 937 (Old Penrith, undated) records a stone set up by a man named Martius for his father (cf. A.i.4-5 note) who was an <emph>emeritus</emph> of the <emph>ala Petriana</emph> (the <emph>ala</emph> is attested in several tablets, see 700.back note). A Victor is attested in 180, 182, 608 and perhaps 394 and 694, but all these are from earlier levels.
+			</note>
+			<note xml:id="note2" n="A.i.2" type="line" anchored="true"><emph>karissimo</emph>: the word does not occur elsewhere in a salutation in the tablets, but cf. <bibl n="CEL"><emph>CEL</emph></bibl> 77 and 141.
+			</note>
+			<note xml:id="note3" n="A.i.3-4" type="line" anchored="true">We are confident of the reading even though little remains of <emph><unclear>ci</unclear></emph> in <emph>s<unclear>ci</unclear>as</emph> and <emph>e<unclear>sse</unclear></emph> is so cursively written that it could be read quite differently. The only point where a different reading seems at all likely is if <emph>tu</emph> ... <emph>facias</emph> were substituted for <emph>te</emph> ... <emph>facere</emph>: the letter after <emph>fac</emph> could well be <emph>i</emph>, but the letter following has the characteristic curved top-stroke of <emph>r</emph>. There is a very similar expression at the start of another Vindolanda letter, 311.i.3-5: <emph>ut scias me recte ualere quod te inuicem fecisse cupio</emph>. It is something of an epistolary clich√© to begin a letter with <emph>scias</emph> (or equivalent): see <bibl n="Cugusi1983"><author>Cugusi</author> (<date>1983</date>)</bibl>, 79, and <bibl n="CEL"><emph>CEL</emph></bibl> I, p. 24. For <emph>recte esse</emph> see <bibl n="OLD"><emph>OLD</emph></bibl> s.v. <emph>recte</emph> 9 and <bibl n="Cugusi1983"><author>Cugusi</author> (<date>1983</date>)</bibl>, 273; and for the whole phrase <emph>scias</emph> ... <emph>esse</emph> cf. <bibl n="CEL"><emph>CEL</emph></bibl> 142.47-48 (= <emph>P.Mich</emph>. VIII 468), <emph>scias domo perb[e]ne omnia recte esse</emph>. On the whole of this sentence see now <bibl n="Adams2002"><author>Adams</author> (<date>2002</date>)</bibl>, 00.
+			</note>
+			<note xml:id="note4" n="A.i.4-5" type="line" anchored="true">The <emph>p</emph> of <emph><unclear>p</unclear>rocu<unclear>r</unclear>[a]t<unclear>o</unclear>rem</emph> lacks the loop which is found elsewhere in <emph>p</emph> in this hand. For <emph>facio procuratorem</emph> cf. <bibl n="TLL"><emph>TLL</emph></bibl> X.2 1576.20. It is most probable that <emph>procurator</emph> here is being used of a private legal capacity, for which see <bibl n="TLL"><emph>TLL</emph></bibl> X.2 1573ff.; cf. especially the <emph>procurator ex testamento</emph> appointed by a soldier in <bibl n="CPL"><emph>CPL</emph></bibl> 221 (perhaps also <bibl n="CPL"><emph>CPL</emph></bibl> 225). One wonders whether the two men really were brothers and that <emph>frater</emph> is not in this letter a mere term of affection; but this cannot be the case if <emph>pat<unclear>r</unclear>i<unclear>s</unclear> <unclear>m</unclear>ei</emph> is right in 7. Perhaps Martius wishes to make Victor his <emph>procurator</emph> in order to prevent relatives of his father getting their hands on his father\'s property which he has inherited.
+			</note>
+			<note xml:id="note5" n="A.i.6" type="line" anchored="true">The other side proves that there is a line almost wholly missing at this point (corresponding to the right-hand half of ii.6 plus the back of I).
+			</note>
+			<note xml:id="note6" n="A.i.7" type="line" anchored="true">There is little doubt that the first four letters which survive in this line are <emph>cogn</emph> and that the next but one is <emph>t</emph>; thus <emph><unclear>c</unclear>ogn<unclear>at</unclear>-</emph> or <emph><unclear>c</unclear>ogn<unclear>it</unclear>-</emph> seems inevitable. The reading, however, seems to be <emph><unclear>c</unclear>ogn<unclear>ut</unclear></emph>, for which we have no suggestion. If we are to read <emph><unclear>c</unclear>ogn<unclear>at</unclear></emph> or <emph><unclear>c</unclear>ogn<unclear>it</unclear></emph>, we have to assume that the first stroke of the apparent <emph>u</emph> is really a descender from a letter in the (lost) line above. A reference to <emph>cognati patris</emph> would make good sense with <emph>procurator</emph> in a private legal capacity; see the note to lines 4-5 above. After <emph>pat<unclear>r</unclear>i<unclear>s</unclear></emph>, <emph><unclear>m</unclear></emph> is a possibility, i.e. <emph><unclear>m</unclear>[ei</emph>; we have also considered <emph><unclear>n</unclear>[ostri</emph>, but there would not be room to fit it all on this line and the trace before <emph>d<unclear>i</unclear>ligenter</emph> in 8 does not look like <emph>i</emph>.
+			</note>
+			<note xml:id="note7" n="A.i.7-9" type="line" anchored="true">Although not much can have been lost at left and right in these lines, we are unable to suggest any connected sense.
+			</note>
+			<note xml:id="note8" n="A.i.8" type="line" anchored="true">After <emph>neq<unclear>u</unclear>e</emph> (which looks reasonably secure) it might be possible to read <emph>a<unclear>gam</unclear>[</emph>, but we do not see how the sentence can have run.
+			</note>
+			<note xml:id="note9" n="A.i.9" type="line" anchored="true"><emph><unclear>ui</unclear>d</emph> before <emph><unclear>e</unclear>is d<unclear>is</unclear>trahant</emph> looks possible, and <emph>q</emph> before it is perhaps also possible. For <emph>distraho</emph> meaning "sell" see <bibl n="OLD"><emph>OLD</emph></bibl> s.v.4 and <emph>TLL </emph>V.1 1542-3.
+			</note>
+			<note xml:id="note10" n="B.ii.1" type="line" anchored="true">At the start <emph>e<unclear>s</unclear></emph> would be an easier reading, but <emph>e<unclear>t</unclear></emph> is possible and would seem to offer a more probable construction.
+			</note>
+			<note xml:id="note11" n="B.ii.1ff" type="line" anchored="true">The way this passage is to be understood is discussed in <bibl n="Adams2003"><author>Adams</author> (<date>2003</date>)</bibl>, §6, whose suggestions (in particular that <emph>peto</emph> is to be taken as parenthetical and <emph>scribis</emph> as for the imperative) we have followed in our translation. The translation offered in <bibl n="ARBirley2002"><author>A.R.Birley</author> (<date>2002</date>)</bibl>, 159 is based on earlier readings of ours, which we have now improved after inspection of the original.
+			</note>
+			<note xml:id="note12" n="B.ii.2-3" type="line" anchored="true">We had previously suggested <emph>o<unclear>pt</unclear>[i]<unclear>o</unclear>nem</emph> here in both lines, but inspection of the original made it clear that there was a larger gap between the fragments. We are reasonably confident that <emph>occasionem</emph> was the word used in both places. For the phrase <emph>per occasionem</emph> see <bibl n="OLD"><emph>OLD</emph></bibl> s.v. <emph>occasio</emph> 1b. <emph>scr<unclear>i</unclear>bis</emph>: we cannot read <emph>scribes</emph> (future for imperative, as <emph>dabis</emph> in line 4); on the use of the present indicative for the imperative see <bibl n="Adams2003"><author>Adams</author> (<date>2003</date>)</bibl>, 00<emph>.</emph>
+			</note>
+			<note xml:id="note13" n="B.ii.3-4" type="line" anchored="true"><emph>Br<unclear>e</unclear>me|<unclear>s</unclear>ione</emph>: we earlier read <emph>Br<unclear>e</unclear>me<unclear>n</unclear>io</emph> and took this to refer to the fort <emph>Bremenium</emph> at High Rochester. The first letter in line 4 could indeed be <emph>n</emph>, though <emph>s</emph> is more probable, but the letters following <emph>io</emph> can hardly be read as anything other than <emph>ne</emph> in this hand; this would seem to make the reading <emph>Br<unclear>e</unclear>me<unclear>s</unclear>ione</emph> (or less probably <emph>Br<unclear>e</unclear>me<unclear>n</unclear>ione</emph>) inevitable. We might think of <emph>Bremesio</emph> (or <emph>Bremenio</emph>) as a hitherto unattested alternative name for <emph>Bremenium</emph> (other place-names in Britain beginning <emph>Brem</emph>- are known; see <bibl n="PNRB"><emph>PNRB</emph></bibl> s.vv.), but we do not want a reference here to High Rochester, if we have read the back correctly, since it is north of <emph>Coria</emph> (Corbridge). Our understanding is that the letter was sent to Victor at Corbridge who was on his way south to Catterick (<emph>Cataractonium</emph>). <emph>Bremesio</emph> therefore should be the name of a place on the route between Corbridge and Catterick. Prof. <bibl n="Todd1989"><author>Malcolm Todd</author></bibl> (<emph>per litt.</emph>) has suggested to us that <emph>Bremesio</emph> may have been the Roman name for Piercebridge, which was not previously known, and we find this suggestion attractive. On the Roman site there see <bibl n="FitzpatrickScott1999"><author>Fitzpatrick</author> and <author>Scott</author> (<date>1999</date>)</bibl>, 111-132; they state that there is no conclusive evidence for a fort or forts there in the second or earlier third centuries (p. 111) but that there is evidence for some military activity there in the mid-later second century (p. 114). The site would certainly have been of strategic importance.
+			</note>
+			<note xml:id="note14" n="B.ii.4" type="line" anchored="true"><emph>dabis</emph> is no doubt future for imperative, with the object "your letter" being understood.
+			</note>
+			<note xml:id="note15" n="B.ii.4-5" type="line" anchored="true">For other references to Cataractonium see <emph>Tab.Vindol.</emph>II, Index III s.v.
+			</note>
+			<note xml:id="note16" n="B.ii.5" type="line" anchored="true"><bibl n="RNGCL"><emph>RNGCL</emph></bibl> recognises a <emph>gentilicium</emph> Durmius, though <emph>D<unclear>u</unclear>r<unclear>m</unclear>[io</emph> looks a little short for the lacuna. At the end of the line <emph><unclear>uel</unclear></emph> may be possible. For other references to veterans in the tablets see 593.ii.2 note.
+			</note>
+			<note xml:id="note17" n="B.ii.6" type="line" anchored="true"><emph>Hario</emph>: if <emph>uel</emph> is right at the end of 5, this will be a complete name (rather than the end of one). Again, <bibl n="RNGCL"><emph>RNGCL</emph></bibl> recognises this as a <emph>gentilicium</emph>. We are also reminded of (H)arrius in Catullus 84.
+			</note>
+			<note xml:id="note18" n="B.ii.6-7" type="line" anchored="true">The trace after <emph>in</emph> is indeterminate; a possible supplement would be <emph>in <unclear>c</unclear>[uius centuria] fueramus</emph>.
+			</note>
+			<note xml:id="note19" n="B.ii.7" type="line" anchored="true">The lacuna is probably just enough to accommodate <emph>saluta</emph>. It seems clear that we are dealing with greetings at this point and are therefore near the end of the letter.
+			</note>
+			<note xml:id="note20" n="B.ii.7-9" type="line" anchored="true">If this tablet is rightly assigned to <emph>c</emph>. 175-200, Proculus and Valentinus mentioned here are not the same as those who occur in other tablets (for Proculus see 611.i.7 note and for Valentinus 255.3).
+			</note>
+			<note xml:id="note21" n="B.ii.8" type="line" anchored="true">After <emph>famili<unclear>am</unclear></emph> one expects <emph>tuam</emph> or <emph>eius</emph>. Presumably a female name followed at the end of the line; either <emph>ni<unclear>d</unclear>i<unclear>c</unclear>em</emph> or <emph>ni<unclear>d</unclear>i<unclear>t</unclear>em</emph> looks to be a good reading, suggesting a Greek name, but we have found nothing suitable.
+			</note>
+			<note xml:id="note22" n="B.ii.9" type="line" anchored="true">The trace after <emph>filia<unclear>m</unclear></emph> is indecisive; either <emph><unclear>t</unclear>[uam et</emph> or <emph><unclear>e</unclear>[ius et</emph> is possible. The presence of someone\'s daughter in a military environment is noteworthy; cf. 643.back.
+			</note>
+			<note xml:id="note23" n="B.ii.10" type="line" anchored="true">For other references to <emph>uexillarii</emph> in the tablets see <bibl n="Tab.Vindol.II"><emph>Tab.Vindol.</emph>II</bibl>, Index IV s.v. The name may end <emph>-<unclear>c</unclear>ian<unclear>u</unclear>m</emph>.
+			</note>
+			<note xml:id="note24" n="A.Address" type="line" anchored="true">It is probable that the address is all written in the same hand as the letter.
+			</note>
+			<note xml:id="note25" n="A.Address.1" type="line" anchored="true">The position of this line, in the top left-hand corner, shows that what we have here is the name of the place to which the letter is to be delivered (see Introduction, p. 00). Probably five letters have been written of which the first two are badly obscured by dirt; then <emph>ri</emph> is almost certain, followed by a damaged letter which suits <emph>s</emph>. Since what can be seen of the first two letters is compatible with <emph>co</emph>, we think it very probable that the place name is <emph><unclear>Co</unclear>ri<unclear>s</unclear> </emph>(i.e. Corbridge, see 154.7 note). For other letters in the Vindolanda material addressed to <emph>Coria</emph> see 312 and the stilus tablet Inv.no. 87.722 with <emph>Tab.Vindol.</emph>II, p. 364. According to <bibl n="BreezeDobson1985"><author>Breeze</author> and <author>Dobson</author> (<date>1985</date>)</bibl>, 13 Corbridge was not reoccupied as a normal fort after the abandonment of the Antonine Wall, but military activity continued at the site. This would seem to be sufficient to justify supposing that a letter was addressed to Victor there. See further <bibl n="BishopDore1988"><author>Bishop</author> and <author>Dore</author> (<date>1988</date>)</bibl>, 137-9.
+			</note>
+			<note xml:id="note26" n="A.Address.3" type="line" anchored="true"><emph>eq(uiti) a<unclear>rm</unclear>.[</emph>: there is no mark of abbreviation after <emph>eq</emph>. Clearly Victor belonged to an <emph>ala</emph> or a <emph>cohors equitata</emph>. <bibl n="ARBirley2001b"><author>A.R.Birley</author> (<date>2001b</date>)</bibl>, 26, <bibl n="ARBirley2002">(2002)</bibl>, 158-9, tentatively suggests <emph>pr(aef)] eq a Mar[tio</emph>, but this is not possible: even if <emph>a Mar[tio</emph> could be read, there is no room at the end of 2 or the beginning of 3 to supply <emph>pr(aef)</emph>. We are reasonably confident of the reading <emph>arm</emph> after <emph>eq</emph>. We think it most likely that we have a reference to the post of <emph>armorum custos</emph> (on which see <bibl n="Domaszewski1967"><author>von Domaszewki</author> (<date>1967</date>)</bibl>, 55-6, <bibl n="Tab.Vindon."><emph>Tab.Vindon.</emph></bibl>, 61, with further bibliography). The title must have been abbreviated, though it is not certain how. Roger Tomlin has drawn our attention to <bibl n="ILS"><emph>ILS</emph></bibl> 2186 = <bibl n="Speidel1965"><author>Speidel</author> (<date>1965</date>)</bibl>, No. 56, which lists among <emph>nomina turmae</emph> an <emph>AVR VICTOR ARM</emph>; he was undoubtedly the troop\'s <emph>armorum custos</emph>, so the text proves that in the right context <emph>arm </emph>was enough for identification. However, there is certainly something written after <emph>arm</emph> in our text. In the address of <bibl n="Tab.Vindon."><emph>Tab.Vindon.</emph></bibl> 38 the title is abbreviated <emph>armoru(m) cus(todi) </emph>(cf. <bibl n="Tab.Vindon."><emph>Tab.Vindon.</emph></bibl> 23). Here we think the reading <emph>a<unclear>rmorc</unclear></emph> may be possible, i.e. <emph>armor(um) c(ustodi)</emph>.
+			</note>
+			<note xml:id="note27" n="A.Address.4" type="line" anchored="true">Written on the slant as usual for the name of the sender. The traces immediately after <emph>M]a<unclear>rt</unclear>io</emph> are badly abraded. We think them compatible with <emph><unclear>li</unclear></emph> and suggest that Martius was a <emph>librarius</emph>. The word generally just means "clerk" but in the military context can refer to a <emph>principalis</emph> in the <emph>officium</emph> of the <emph>praefectus</emph> of an <emph>ala</emph> or a cohort, see <bibl n="Domaszewski1967"><author>von Domaszewski</author> (<date>1967</date>)</bibl>, 56, 59.
+			</note>
+	</ab>
+            </div>
+            
+        </body>
+    </text>
+	</TEI>
